@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "cmd /c \"cd backend && npm start\"",
+    "build": "cd frontend && npm install && npm run build",
     "dev:backend": "cmd /c \"cd backend && npm start\"",
     "dev:frontend": "cmd /c \"cd frontend && npm run dev\""
   }
